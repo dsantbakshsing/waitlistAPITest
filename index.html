@@ -1,24 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<style>.container--waitlistapi {margin: 0 auto;}</style>
-
-<body>
-    <div id="root"></div>
-
-<script 
-	src="https://unpkg.com/waitlistapi/dist/widget.js" 
-	id="Waitlist-API-Script" 
-	data-config="{
-		'name': 'w1', 
-		'api_key': 'JTBDPS', 
-	  'waitlist_link': 'https://dsantbakshsing.github.io/waitlistAPITest/',
-	  'config': {'targetElementId': 'root'}
-}">
-</script>
-</body>
-</html>
-
-
+<div id="root"></div>
+  <style>
+    h1 {
+      color: #ffffff;
+    }
+    .container--waitlistapi {
+      margin: 0 auto; // centers the widget
+      background-color: #000000;
+    }
+    .button--waitlistapi {
+      background-color: #005eff;
+    }
+    .statusTextContainer--waitlistapi {
+      color: #ffffff;
+    }
+    .referralLinkField--text {
+      color: #ffffff;
+    }
+  </style>
+  <script 
+    src="https://unpkg.com/waitlistapi/dist/widget.js" 
+    id="Waitlist-API-Script" 
+    data-config="{
+      'name': 'w1', 
+      'api_key': 'JTBDPS', 
+      'waitlist_link': 'https://dsantbakshsing.github.io/waitlistAPITest/',
+      'config': {'targetElementId': 'root'}
+    }"
+  ></script>
